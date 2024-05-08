@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <style>
+
+        form {
+            margin-left: 35%;
+            margin-top: 5%;
+        }
+        input {
+            margin: 8px;
+            padding: 2%;
+            padding-right: 120px;
+            border-radius: 5px;
+        }
+        button {
+            padding: 2%;
+            margin-left: 10px;
+            border-radius: 5px;
+            background-color: rgb(15, 15, 14);
+            color: #fff;
+            font-size: 18px;
+            border-style: none;
+        }
+        .menu {
+            font-size: 28px;
+            background-color: black;
+            color: #fff;
+            padding: 1%;
+            margin-left: -15px;
+            margin-right: -15px;
+            margin-top: -15px;
+            border-radius: 5px;
+        }
+
+        .rodape {
+            background-color: black;
+            color: #fff;
+            padding: 1%;
+            margin-top: 150px;
+            margin-left: -15px;
+            margin-right: -15px;
+            border-radius: 5px;
+        }
+    </style>
+    <body>
+        <div class="menu">Cadastro de Usuario</div>
+        <form action="">
+            <label for="">Usuario</label>
+            <br>
+            <input type="user" id="usuario" placeholder="Crie o nome de usuario">
+            <br>
+
+            <label for="">E-mail</label>
+            <br>
+            <input type="email" id="email" placeholder="Crie um e-mail">
+            <br>
+            <label for="">Senha</label>
+            <br>
+            <input type="password" id="password" placeholder="Crie uma senha">
+            <br>
+            <br>
+            <button>Cadastre-se</button>
+        </form>
+        <br>
+        <footer>
+            <div class="rodape">
+                Todos os direitos reservados
+            </div>
+        </footer>
+    </body>
+</html>
